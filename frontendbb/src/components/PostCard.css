@@ -1,0 +1,72 @@
+.post-card {
+  width: 300px; 
+  height: 200px; 
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.post-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 8px rgba(105, 105, 105, 0.15);
+}
+
+.post-card .post-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.post-card .post-content {
+  font-size: 14px;
+  color: #868686;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.post-card .post-image {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.post-card .post-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.post-card .post-actions button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.post-card .post-actions .edit-button {
+  background-color: #5e5d5d;
+  color: rgb(255, 255, 255);
+}
+
+.post-card .post-actions .edit-button:hover {
+  background-color: #000000;
+}
+
+.post-card .post-actions .delete-button {
+  background-color: #5e5d5d;
+  color: rgb(255, 255, 255);
+}
+
+.post-card .post-actions .delete-button:hover {
+  background-color: #c82333;
+}

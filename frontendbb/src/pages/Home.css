@@ -1,0 +1,25 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.home-title {
+  font-size: 3rem;
+  color: #000;
+}
+
+.home-subtitle {
+  font-size: 1.5rem;
+  color: #666;
+}
+
+.home-footer {
+  position: absolute;
+  bottom: 10px;
+  font-size: 0.8rem;
+  color: #333;
+}
